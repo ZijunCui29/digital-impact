@@ -1,0 +1,43 @@
+#digital_impact_extract_btn {
+  background-color: #3CB043;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
+  padding: 20px 80px;
+  border: none;
+  border-radius: 5px;
+}
+
+#digital_impact_meta_box h2 {
+  font-size: 16px;
+}
+
+.loading-spinner {
+  display: flex;
+  align-items: center;
+}
+
+.loader {
+  border: 4px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 4px solid #3498db;
+  width: 25px;
+  height: 25px;
+  animation: spin 2s linear infinite;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align:middle;
+}
+
+.loading-text {
+  color: red;
+  font-size: 16px;
+  display: inline-block;
+  vertical-align:middle;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
